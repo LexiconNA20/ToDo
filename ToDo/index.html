@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Inköpslista</h1>
+
+        <ul id="listan" class="list-group align-self-sm-stretch">
+            <li class="list-group-item">
+                <div class="input-group">
+                    <select class="custom-select" id="inputGroupSelect02">
+                        <option selected>Choose...</option>
+                    </select>
+                    <div class="input-group-append">
+                        <label class="input-group-text" for="inputGroupSelect02">Load</label>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <input id="addlist" type="text" class="form-control" placeholder="Ny inköpslista" autofocus />
+            </li>
+            <li id="input" class="list-group-item invisible">
+                <input id="additem" type="text" class="form-control" placeholder="Lägg till här..." autofocus />
+            </li>
+        </ul>
+    </div>
+
+
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

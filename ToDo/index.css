@@ -1,0 +1,15 @@
+﻿h1 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-family: comic sans-serif
+}
+
+.change{
+    text-decoration: line-through;
+    background-color: lightcyan;
+}
+
+.right{
+    float: right;
+}
